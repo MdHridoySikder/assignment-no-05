@@ -73,25 +73,7 @@ getElement("clear-btn").addEventListener("click", function () {
   cartContainer.innerHTML = "";
 });
 
-//---------------
-// getElement("card-box").addEventListener("click", function (ev) {
-//   if (ev.target.className.includes("btn-copy")) {
-//     const buttonCopy = ev.target;
-//     const callNumber =
-//       buttonCopy.parentNode.parentNode.children[1].children[2].innerText;
 
-//     // Use the Clipboard API to copy the text to the clipboard
-//     navigator.clipboard.writeText(callNumber).then(() => {
-//       // The text was successfully copied
-//       alert("The number has been copied: " + callNumber);
-
-//       const cardCopy = getElement("card-copy").innerText;
-//       getElement("card-copy").innerText = Number(cardCopy) + 1;
-//     });
-//   }
-// });
-
-// copy techique
 
 getElement("card-box").addEventListener("click", function (ev) {
   if (ev.target.className.includes("btn-copy")) {
